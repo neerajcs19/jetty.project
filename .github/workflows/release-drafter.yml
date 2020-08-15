@@ -1,10 +1,7 @@
 name: Release Drafter
 on:
   push:
-    branches:
-      - jetty-9.4.x
-      - jetty-10.0.x
-      - jetty-11.0.x
+    branches: [jetty-9.4.x, jetty-10.0.x, jetty-11.0.x]
 jobs:
   update_release_draft:
     runs-on: ubuntu-latest
