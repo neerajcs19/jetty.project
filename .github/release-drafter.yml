@@ -1,7 +1,8 @@
 # Configuration for Release Drafter: https://github.com/toolmantim/release-drafter
 name-template: $RESOLVED_VERSION
 tag-template: 'jetty-$RESOLVED_VERSION'
-version-template: $MAJOR.$MINOR.$PATCH
+#version-template: $MAJOR.$MINOR.$PATCH
+version-template: 'jetty-9.4.x'
 
 # Emoji reference: https://gitmoji.carloscuesta.me/
 categories:
