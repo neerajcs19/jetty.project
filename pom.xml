@@ -1140,7 +1140,6 @@
         <artifactId>derbytools</artifactId>
         <version>10.14.2.0</version>
       </dependency>
-      <!-- avoid depending on a range dependency from a transitive dependency -->
       <dependency>
         <groupId>io.grpc</groupId>
         <artifactId>grpc-core</artifactId>
